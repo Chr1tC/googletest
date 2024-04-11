@@ -92,10 +92,10 @@ cc_library(
             "googletest/include/gtest/**/*.h",
             "googlemock/src/*.cc",
             "googlemock/include/gmock/**/*.h",
-        ],
+        ],ss
         exclude = [
             "googletest/src/gtest-all.cc",
-            "googletest/src/gtest_main.cc",
+            "googletest/src/gtest_main.cc",s
             "googlemock/src/gmock-all.cc",
             "googlemock/src/gmock_main.cc",
         ],
